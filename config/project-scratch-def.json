@@ -1,6 +1,6 @@
 {
     "orgName": "Maps",
-    "template": "0TTfI000000a2Cz",
+    "template": "0TTam000001os6H",
     "hasSampleData": false,
     "adminEmail": "jonathan.zhou@salesforce.com",
     "features": [
@@ -24,6 +24,11 @@
         },
         "userEngagementSettings": {
             "enableOrchestrationInSandbox": true
+        },
+        "securitySettings": {
+            "sessionSettings": {
+                "sessionTimeout": "TwelveHours" 
+            }
         }
     }
 }
